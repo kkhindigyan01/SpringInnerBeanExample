@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<!-- <bean id="paymentGateway" class="com.kkhindigyan.model.PaymentGateway"> 
+		<property name="paymentGatewayId" value="Google Pay"></property> <property 
+		name="order"> <bean class="com.kkhindigyan.model.Order"> <property name="itemName" 
+		value="iphone 11"></property> <property name="itemPrice" value="80000.00"></property> 
+		<property name="address" value="MG Road,Mumbai"></property> </bean> </property> 
+		</bean> -->
+
+	<bean id="paymentGateway"
+		class="com.kkhindigyan.model.PaymentGateway">
+		<constructor-arg name="paymentGatewayId"
+			value="Google Pay"></constructor-arg>
+		<constructor-arg name="order">
+			<bean class="com.kkhindigyan.model.Order">
+				<property name="itemName" value="iphone 11"></property>
+				<property name="itemPrice" value="80000.00"></property>
+				<property name="address" value="MG Road,Mumbai"></property>
+			</bean>
+		</constructor-arg>
+	</bean>
+
+</beans>        
