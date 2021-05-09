@@ -4,7 +4,10 @@ import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.kkhindigyan.model.PaymentGateway;
-
+/**
+ * @author Kishan Kumar
+ *
+ */
 public class ClientTest {
 
 	public static void main(String[] args) {
