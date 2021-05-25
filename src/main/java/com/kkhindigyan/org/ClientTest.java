@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.kkhindigyan.model.PaymentGateway;
 /**
- * @author Kishan Kumar
+ * @author KK HindiGyan
  *This is client program for Spring App
  */
 public class ClientTest {
