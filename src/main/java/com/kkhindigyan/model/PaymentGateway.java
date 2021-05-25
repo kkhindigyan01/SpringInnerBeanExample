@@ -1,5 +1,8 @@
 package com.kkhindigyan.model;
-
+/**
+ *  * @author KK HindiGyan
+ *This is PaymentGateway class
+ */
 public class PaymentGateway {
 	
 	private String paymentGatewayId;
