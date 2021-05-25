@@ -1,5 +1,9 @@
 package com.kkhindigyan.model;
-
+/**
+ * This class represent Order of an Item
+ * @author KK HindiGyan
+ *
+ */
 public class Order {
 
 	private String itemName;
